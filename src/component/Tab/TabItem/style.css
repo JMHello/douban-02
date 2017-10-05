@@ -1,0 +1,45 @@
+/*
+    TabItem style.css
+*/
+
+.tab-container .tc-item a {
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-container .tc-item-hover a{
+    color: #57a1fd;
+}
+
+/*.tc-item .icon-book {*/
+    /*background: url("../../../images/book.png") no-repeat;*/
+/*}*/
+
+/*.tc-item .icon-book-hover {*/
+    /*background: url("../../../images/book-hover.png") no-repeat;*/
+    /*background-size: 100%;*/
+/*}*/
+/*.tc-item .icon-movie {*/
+    /*background: url("../../../images/movie.png") no-repeat;*/
+/*}*/
+/*.tc-item .icon-movie-hover {*/
+    /*background: url("../../../images/movie-hover.png") no-repeat;*/
+    /*background-size: 100%;*/
+/*}*/
+/*.tc-item .icon-music {*/
+    /*background: url("../../../images/music.png") no-repeat;*/
+/*}*/
+/*.tc-item .icon-music-hover {*/
+    /*background: url("../../../images/music-hover.png") no-repeat;*/
+    /*background-size: 100%;*/
+/*}*/
+
+.tc-item .icon {
+    width: 30px;
+    font: 30px/1 '';
+    margin-bottom: 5px;
+    background-size: 100%;
+}
+.tc-item .icon:hover {
+    color: #57a1fd;
+}

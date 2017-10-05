@@ -1,0 +1,16 @@
+.loadMore-container {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 76px;
+}
+.loadMore-container .loadingMore {
+    font: 14px/2 '';
+    text-align: center;
+    display: block;
+    color: #f4f4f4;
+    background: #c0c0c0;
+}
+.hide {
+    display: none;
+}

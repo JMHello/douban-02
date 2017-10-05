@@ -1,0 +1,29 @@
+/*
+    List style.css
+*/
+
+.list-container {
+    margin-top: 50px;
+    height: 500px;
+    min-height: 580px;
+    overflow-y: scroll;
+}
+
+.list-container .loading {
+    width: 350px;
+    text-align: center;
+    font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .list-container {
+        height: 85vh;
+        min-height: 600px;
+    }
+}
+@media (max-width: 412px) {
+    .list-container {
+        min-height: 500px;
+    }
+}
+

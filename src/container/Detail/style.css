@@ -1,0 +1,123 @@
+/*
+   Detail style.css
+*/
+
+.content-container > div{
+    height: 100vh;
+    background: white;
+}
+.detail-info {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dddddd;
+}
+.detail-info .item-img {
+    width: 23%;
+    vertical-align: middle;
+    margin-left: 8px;
+    margin-right: 8px;
+    float: left;
+}
+
+.detail-info .info {
+    width: 71%;
+    float: left;
+}
+.info .info-item{
+    font: 12px/1.7 '';
+}
+.info .info-tag {
+    min-height: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.info-tag .tag-item {
+    margin-right: 5px;
+    margin-bottom: 3px;
+    padding: 0 4px;
+    color: white;
+    background: #f2b000;
+}
+.detail-container {
+    background: white;
+}
+.detail-container .detail-content {
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+}
+.detail-content .item-title {
+    font: bold 20px/2 '';
+}
+.detail-content .item-detail {
+    text-indent: 2rem;
+    word-wrap: break-word;
+}
+
+/* 电影 */
+.detail-info .movie-image {
+    width: 270px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.movie-info .info {
+    width: 100%;
+    float: none;
+}
+.movie-info .info .info-item {
+    font: 14px/2 '';
+}
+
+.actor-list {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.actor-list .list-item {
+    width: 30%;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.actor-list .list-name {
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: red;
+}
+.actor-list .list-img {
+    margin: 8px 0;
+}
+/* returnNav */
+.reNav-container {
+    height: 45px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: #318dff;
+}
+.reNav-container .reNav-left {
+    width: 60px;
+    font: 14px/45px '';
+    text-align: right;
+    color: whitesmoke;
+    float: left;
+}
+.reNav-container .reNav-right {
+    width: calc(100% - 60px);
+    font: 18px/45px '';
+    color: whitesmoke;
+    text-align: center;
+    float: left;
+}
+
+

@@ -1,0 +1,41 @@
+/*
+    ListItem style.css
+*/
+
+.list-item {
+    margin:  10px;
+    padding: 12px 0;
+    border: 1px solid #dddddd;
+}
+.list-item .item-img {
+    width: 23%;
+    vertical-align: middle;
+    margin: 0 8px ;
+    float: left;
+}
+.info {
+    width: 71%;
+    float: left;
+}
+.info .info-item,
+.info .info-name-link {
+    font: 14px/1.7 '';
+}
+.info .info-tag {
+    min-height: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.info .info-name-link {
+    display: inline-block;
+}
+.info .info-name-link:hover {
+    color: #318dff;
+}
+.info-tag .tag-item {
+    margin-right: 5px;
+    margin-bottom: 3px;
+    padding: 0 4px;
+    color: white;
+    background: #f2b000;
+}
